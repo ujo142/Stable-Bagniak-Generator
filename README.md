@@ -1,0 +1,1 @@
+Project for bagniaks generators using GANs
