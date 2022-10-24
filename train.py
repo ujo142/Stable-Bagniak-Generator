@@ -29,7 +29,7 @@ def main():
     batch_size = 256
     normalize = [(0.5, 0.5, 0.5), (0.5, 0.5, 0.5)]
     latent_size = 256
-    food_data_directory = 'food11-image-dataset/training'
+    food_data_directory = './food11-image-dataset/training'
 
     # Pack data into dataloader
     food_train_dataset = ImageFolder(food_data_directory, transform=T.Compose([
